@@ -1,0 +1,43 @@
+{
+    "name": "upx2px",
+    "version": "1.0.0",
+    "description": "upx to px in css",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "lint-fix": "eslint --fix --ext .js src/",
+        "prettier:ext": "prettier -c src/**",
+        "prettier:fix": "prettier --write \"src/**/*\" \"test/**/*\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/2460392754/upxToPx.git"
+    },
+    "keywords": [
+        "uniapp",
+        "uni-app",
+        "uni",
+        "upx"
+    ],
+    "bin": {
+        "upx2px": "./src/bin/index.js"
+    },
+    "author": "2460392754",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/2460392754/upxToPx/issues"
+    },
+    "homepage": "https://github.com/2460392754/upxToPx#readme",
+    "dependencies": {
+        "commander": "^4.0.1",
+        "node-watch": "^0.6.3"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.8.0",
+        "eslint-config-alloy": "^3.5.0",
+        "prettier": "^1.19.1"
+    }
+}
