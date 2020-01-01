@@ -1,6 +1,6 @@
 {
     "name": "upx2px",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "upx to px in css",
     "main": "index.js",
     "directories": {
