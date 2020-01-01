@@ -4,7 +4,7 @@ const nodeWatch = require('node-watch');
 function fileReg({ dpr, target, output }) {
     const data = fs.readFileSync(target);
     const newData = data.toString().replace(/([0-9]*)upx/g, ($1) => {
-        return Number($1) / dpr + 'px';
+        return parseInt($1, 10) / dpr + 'px';
     });
 
     fs.writeFileSync(output, newData);

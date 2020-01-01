@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 const program = require('commander');
-const packageData = require('../package.json');
+const packageData = require('../../package.json');
 const upx2px = require('../lib/handle');
 
 program
@@ -26,5 +26,7 @@ const config = {
     dpr: program.dpr || 2,
     watch: program.watch || false
 };
+
+console.log(config);
 
 upx2px(config);

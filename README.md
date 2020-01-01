@@ -32,5 +32,5 @@ Examples:
 ## cli
 
 ```bash
-$ upx2px --watch --target=./dist/styles/index.css --output=./dist/styles/index.px.css
+$ upx2px --watch --target=./test/index.css --output=./test/index.px.css
 ```
